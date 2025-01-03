@@ -4,56 +4,11 @@
     justify-content: center;
     position: relative;
     padding: 20px;
-    background-color: #f9f9f9;
-  }
-  
-  .carousel-item {
-    text-align: center;
-  }
-  
-  .carousel-item img {
-    width: 100%;
-    height: auto;
-    max-height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  .carousel-text {
-    margin-top: 10px;
-  }
-  
-  .carousel-text h3 {
-    font-size: 1.5rem;
-    color: #333;
-  }
-  
-  .carousel-text p {
-    font-size: 1rem;
-    color: #555;
-  }
-  
-  .carousel-btn {
-    background: none;
-    border: none;
-    font-size: 2rem;
-    cursor: pointer;
-    color: #333;
-  }
-  
-  .carousel-btn:hover {
-    color: #111;
-  }
-  .news-carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    margin: 20px 0;
   }
   
   .carousel-item {
@@ -65,15 +20,10 @@
   .carousel-item img {
     width: 100%;
     height: auto;
-    max-height: 400px;
+    max-height: 350px;
     object-fit: cover;
-    border-radius: 15px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease;
-  }
-  
-  .carousel-item img:hover {
-    transform: scale(1.05);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   }
   
   .carousel-text {
@@ -83,26 +33,25 @@
   }
   
   .carousel-text h3 {
-    font-size: 1.8rem;
-    color: #007bff;
-    font-weight: bold;
-    margin-bottom: 8px;
+    font-size: 1.5rem;
+    color: #0046ad;
+    font-weight: 700;
+    margin-bottom: 10px;
   }
   
   .carousel-text p {
     font-size: 1rem;
     color: #555;
-    line-height: 1.6;
   }
   
   .carousel-btn {
-    background: #007bff;
+    background-color: #0046ad;
+    color: #ffffff;
     border: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
-    color: white;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -110,12 +59,12 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
   }
   
   .carousel-btn:hover {
-    background: #0056b3;
+    background-color: #003b91;
   }
   
   .carousel-btn.left {

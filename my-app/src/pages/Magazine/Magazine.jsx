@@ -5,9 +5,9 @@ const Magazine = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const magazines = [
-    { title: "Real Estate Trends 2025", category: "Real Estate" },
-    { title: "Sustainable Agriculture Practices", category: "Agriculture" },
-    { title: "Tech Startups to Watch", category: "Technology" },
+    { title: "Real Estate Trends 2025", category: "Real Estate", file: "real_estate_trends_2025.pdf" },
+    { title: "Sustainable Agriculture Practices", category: "Agriculture", file: "sustainable_agriculture_practices.pdf" },
+    { title: "Tech Startups to Watch", category: "Technology", file: "tech_startups_to_watch.pdf" },
     // Add more magazine entries here
   ];
 
@@ -33,6 +33,13 @@ const Magazine = () => {
           <div key={index} className="magazine-card">
             <h2 className="magazine-card-title">{magazine.title}</h2>
             <p className="magazine-card-category">{magazine.category}</p>
+            <a
+              href={`/downloads/${magazine.file}`}
+              download={magazine.title}
+              className="download-button"
+            >
+              Download
+            </a>
           </div>
         ))}
       </div>

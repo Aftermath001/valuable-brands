@@ -62,4 +62,21 @@
     font-size: 1em;
     color: #555;
   }
+  .download-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #0046ad;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #003b91;
+  }
+  
   
