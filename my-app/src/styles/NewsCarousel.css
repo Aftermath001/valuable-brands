@@ -1,0 +1,47 @@
+.news-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .carousel-item {
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .carousel-text {
+    margin-top: 10px;
+  }
+  
+  .carousel-text h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .carousel-text p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .carousel-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .carousel-btn:hover {
+    color: #111;
+  }
+  
